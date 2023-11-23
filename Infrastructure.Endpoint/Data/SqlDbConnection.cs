@@ -36,7 +36,6 @@ namespace Infrastructure.Endpoint.Data
             connection.Open();
         }
 
-        //nuevo
         public SqlCommand TraerConsulta(string cmd)
         {
             return new SqlCommand(cmd, connection);

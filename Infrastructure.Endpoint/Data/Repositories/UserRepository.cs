@@ -71,8 +71,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return cat;
         }
 
-     
-
         public void UpdateUser(Guid Id, User nuevoUs)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoUs)

@@ -92,7 +92,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
             
         }*/
 
-
         public void UpdateCliente(Guid Id, Cliente nuevoClie)
         {
 

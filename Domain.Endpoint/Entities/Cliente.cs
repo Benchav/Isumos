@@ -5,35 +5,39 @@ namespace Domain.Endpoint.Entities
 {
     public class Cliente:BaseEntity
     {
-      
-        [Required]
-        [StringLength(50)]
+
+        [Required(ErrorMessage = "El Primer Nombre es obligatorio.")]
+
         public string PrimerNombre { get; set; }
 
-    
-        [MaxLength(10)]
+        [StringLength(15, ErrorMessage = "La longitud máxima para Segundo Nombre es de 15 caracteres.")]
         public string SegundoNombre { get; set; }
-        [Required]
-        [MaxLength(10)]
+
+
+        [Required(ErrorMessage = "El Primer Apellido es obligatorio.")]
         public string PrimerApellido { get; set; }
 
-        [MaxLength(10)]
+
+        [StringLength(15, ErrorMessage = "La longitud máxima para Segundo Apellido es de 15 caracteres.")]
         public string SegundoApellido { get; set; }
 
-        [Required]
-        [StringLength(50)]
-        [EmailAddress]
+
+        [Required(ErrorMessage = "El Correo es obligatorio.")]
+        [EmailAddress(ErrorMessage = "Debe de cumplir como correo.")]
         public string Correo { get; set; }
 
-        
-        [Required,StringLength(8)]
+
+        [Required(ErrorMessage = "El Telefono es obligatorio.")]
         public string Telefono { get; set; }
 
-        [Required]
-        public int Estado { get; set; }
-        [Required]
-        public DateTime FechaCreacion { get; set; }
 
+        [Range(0, int.MaxValue, ErrorMessage = "El Estado debe ser un número positivo.")]
+        public int Estado { get; set; }
+
+        [Required(ErrorMessage = "La fecha  es obligatorio.")]
+
+        public DateTime FechaCreacion { get; set; }
+       
 
 
     }

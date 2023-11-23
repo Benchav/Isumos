@@ -27,6 +27,11 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult PostInV(Inventario Ninventario)  
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             Inventario newInventario = _inventarioService.CreateInV(Ninventario);
 
             return Ok(newInventario);
@@ -44,6 +49,11 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult UpdateInV(Guid Id, Inventario nuevosRegistros)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _inventarioService.UpdateInV(Id, nuevosRegistros);
 
             return Ok("El registro del inventario  seleccionado ha sido modificado");

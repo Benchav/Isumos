@@ -23,7 +23,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         }
 
-       public void CreateCatProducto(Cat nuevoCatProducto)
+        public void CreateCatProducto(Cat nuevoCatProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCatProducto)
                .WithOperation(SqlWriteOperation.Create)
@@ -33,7 +33,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         public void DeleteCatProducto(Guid Id)
         {
-            //Aqui haces una consulta donde comparas los ID
             string delec = "DELETE FROM TblCategoria WHERE IdCategoria = @IdCategoria";
             SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
             SqlParameter parameter = new SqlParameter()
@@ -53,7 +52,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
             SqlCommand readCommand = _operationBuilder.Initialize<Cat>()
               .WithOperation(SqlReadOperation.Select)
               .BuildReader();
-            DataTable dt =  await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
 
             List<Cat> cat = dt.AsEnumerable().Select(row =>
             new Cat
@@ -65,10 +64,9 @@ namespace Infrastructure.Endpoint.Data.Repositories
             }).ToList();
 
             return cat;
-          
+
         }
 
-      
         public void UpdateCatProducto(Guid Id, Cat nuevoCatProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCatProducto)
@@ -76,7 +74,5 @@ namespace Infrastructure.Endpoint.Data.Repositories
             .BuildWritter();
             _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
-
-
     }
 }

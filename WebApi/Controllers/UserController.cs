@@ -27,6 +27,11 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult PostUser(User nuevoUser)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             User newUser = _userService.CreateUser(nuevoUser);
 
             return Ok(newUser);
@@ -43,6 +48,11 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult UpdateUser(Guid Id, User nuevosRegistros)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _userService.UpdateUser(Id, nuevosRegistros);
 
             return Ok("El Usuario seleccinado ha sido modificado");

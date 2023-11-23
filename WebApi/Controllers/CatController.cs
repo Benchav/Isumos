@@ -29,7 +29,14 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult PostCatProducto(Cat nuevoCatProducto)
         {
-                Cat newCatProducto = _catproductoService.CreateCatProducto(nuevoCatProducto);
+          // Verifica si el modelo es válido antes de procesar
+            if (!ModelState.IsValid)
+            {
+             // Devuelve un error de solicitud incorrecta con los mensajes de validación
+                return BadRequest(ModelState);
+            }
+
+            Cat newCatProducto = _catproductoService.CreateCatProducto(nuevoCatProducto);
 
                 return Ok(newCatProducto);
         }
@@ -48,9 +55,12 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult UpdateCatProducto(Guid Id, Cat nuevosRegistros)
         {
-         
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-                _catproductoService.UpdateCatProducto(Id, nuevosRegistros);
+            _catproductoService.UpdateCatProducto(Id, nuevosRegistros);
 
                 return Ok("La categoria de producto seleccionado ha sido modificado");
            

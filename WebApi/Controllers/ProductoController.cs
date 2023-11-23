@@ -28,6 +28,11 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult PostProducto(Producto nuevoProducto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             Producto newProducto = _productoService.CreateProducto(nuevoProducto);
 
             return Ok(newProducto);
@@ -45,6 +50,11 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult UpdateProducto(Guid Id, Producto nuevosRegistros)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _productoService.UpdateProducto(Id, nuevosRegistros);
 
             return Ok("Producto modificado");

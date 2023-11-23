@@ -34,6 +34,11 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult PostCliente(Cliente nuevoCliente)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             Cliente newCliente = _clienteService.CreateCliente(nuevoCliente);
 
             return Ok(newCliente);
@@ -51,6 +56,11 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult UpdateCliente(Guid Id, Cliente nuevosRegistros)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _clienteService.UpdateCliente(Id, nuevosRegistros);
 
             return Ok("El cliente seleccinado ha sido modificado");

@@ -11,7 +11,7 @@ namespace Infrastructure.Endpoint.Services
 
     {
         private Dictionary<Type, SqlEntitySettings> entities = new Dictionary<Type, SqlEntitySettings>();
- 
+
 
         public EntitiesService()
         {
@@ -27,8 +27,7 @@ namespace Infrastructure.Endpoint.Services
 
         private void BuildEntities()
         {
-          
-          
+
             SqlEntitySettings CatProductoSettings = GetCatProductoSettings();
             SqlEntitySettings ClienteSettings = GetClienteSettings();
             SqlEntitySettings ProductoSettings = GetProductoSettings();
@@ -36,21 +35,20 @@ namespace Infrastructure.Endpoint.Services
             SqlEntitySettings UserSettings = GetUserSettings();
             SqlEntitySettings DtProductoSettings = GetDtProductoSettings();
             SqlEntitySettings InventarioSettings = GetInventario();
-           
-           
+
+
             entities.Add(typeof(Cat), CatProductoSettings);
             entities.Add(typeof(Cliente), ClienteSettings);
             entities.Add(typeof(Producto), ProductoSettings);
             entities.Add(typeof(Proveedor), ProveedorSettings);
             entities.Add(typeof(User), UserSettings);
             entities.Add(typeof(DtProducto), DtProductoSettings);
-            entities.Add(typeof (Inventario), InventarioSettings);
+            entities.Add(typeof(Inventario), InventarioSettings);
 
- 
         }
 
-      
-            
+
+
         //ENTIDAD INVENTARIO
         private SqlEntitySettings GetInventario()
         {
@@ -206,7 +204,6 @@ namespace Infrastructure.Endpoint.Services
                 TableName = "TblUsuario",
                 Columns = columns
             };
-
         }
     }
 }

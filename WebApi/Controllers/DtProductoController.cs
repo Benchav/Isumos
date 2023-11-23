@@ -28,6 +28,11 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult Post(DtProducto Nproduc)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             DtProducto newDtProduc = _dtproductoService.Create(Nproduc);
 
             return Ok(newDtProduc);
@@ -45,6 +50,11 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult Update(Guid Id, DtProducto nuevosRegistros)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _dtproductoService.Update(Id, nuevosRegistros);
 
             return Ok("Detalle de Producto modificado");

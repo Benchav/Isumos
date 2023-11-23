@@ -27,6 +27,11 @@ namespace WebApi.Controllers
         [HttpPost]
         public IHttpActionResult PostProveedor(Proveedor nuevoProveedor)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             Proveedor newProveedor = _proveedorService.CreateProveedor(nuevoProveedor);
 
             return Ok(newProveedor);
@@ -43,6 +48,11 @@ namespace WebApi.Controllers
         [HttpPut]
         public IHttpActionResult UpdateProveedor(Guid Id, Proveedor nuevosRegistros)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _proveedorService.UpdateProveedor(Id, nuevosRegistros);
 
             return Ok("El Producto seleccinado ha sido modificado");

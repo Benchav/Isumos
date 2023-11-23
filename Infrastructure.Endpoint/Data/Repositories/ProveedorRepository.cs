@@ -67,8 +67,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return cat;
         }
 
-      
-
         public void UpdateProveedor(Guid Id, Proveedor nuevoProv)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoProv)

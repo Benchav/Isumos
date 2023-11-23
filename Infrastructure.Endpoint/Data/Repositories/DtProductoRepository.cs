@@ -16,8 +16,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
         private readonly ISqlDbConnection _sqlDbConnection;
         private readonly ISqlCommandOperationBuilder _operationBuilder;
 
-
-
         public DtProductoRepository(ISqlDbConnection sqlDbConnection, ISqlCommandOperationBuilder operationBuilder)
         {
             _sqlDbConnection = sqlDbConnection;

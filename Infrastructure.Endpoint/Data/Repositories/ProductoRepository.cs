@@ -47,7 +47,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
             sqlCommand.ExecuteNonQuery();
         }
 
-       
         public async Task<List<Producto>> Get()
         {
 
@@ -73,8 +72,6 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return cat;
 
         }
-
-    
 
         public void UpdateProducto(Guid Id, Producto nuevosRegistros)
         {
