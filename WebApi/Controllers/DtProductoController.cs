@@ -24,6 +24,12 @@ namespace WebApi.Controllers
             return Ok(dtproducto);
         }
 
+        [HttpGet]
+        public async Task<IHttpActionResult> GetById(Guid Id)
+        {
+            DtProducto dtProducto = await _dtproductoService.GetById(Id);
+            return Ok(dtProducto);
+        }
 
         [HttpPost]
         public IHttpActionResult Post(DtProducto Nproduc)
@@ -35,7 +41,7 @@ namespace WebApi.Controllers
 
             DtProducto newDtProduc = _dtproductoService.Create(Nproduc);
 
-            return Ok(newDtProduc);
+            return Created(Request.RequestUri + "/" + newDtProduc.Id, newDtProduc);
         }
 
 

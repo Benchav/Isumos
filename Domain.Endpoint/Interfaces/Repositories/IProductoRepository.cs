@@ -9,7 +9,7 @@ namespace Domain.Endpoint.Interfaces.Repositories
     {
         Task<List<Producto>> Get();
 
-
+        Task<Producto> GetById(Guid Id);
         void CreateProducto(Producto nuevoProducto);
 
         void DeleteProducto(Guid Id);

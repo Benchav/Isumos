@@ -24,6 +24,13 @@ namespace WebApi.Controllers
             return Ok(inventario);
         }
 
+        [HttpGet]
+        public async Task<IHttpActionResult> GetById(Guid Id)
+        {
+            Inventario Inventario = await _inventarioService.GetById(Id);
+            return Ok(Inventario);
+        }
+
         [HttpPost]
         public IHttpActionResult PostInV(Inventario Ninventario)  
         {
@@ -34,7 +41,7 @@ namespace WebApi.Controllers
 
             Inventario newInventario = _inventarioService.CreateInV(Ninventario);
 
-            return Ok(newInventario);
+            return Created(Request.RequestUri + "/" + newInventario.Id, newInventario);
         }
 
 

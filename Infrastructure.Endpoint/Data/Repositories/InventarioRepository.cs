@@ -45,6 +45,34 @@ namespace Infrastructure.Endpoint.Data.Repositories
             sqlCommand.ExecuteNonQuery();
         }
 
+        public async Task<Inventario> GetById(Guid Id)
+        {
+            SqlCommand readCommand = _operationBuilder.Initialize<Inventario>()
+              .WithOperation(SqlReadOperation.SelectById)
+              .WithId(Id)
+              .BuildReader();
+
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+            if (dt.Rows.Count >0)
+            {
+                DataRow row = dt.Rows[0];
+                Inventario inventario = new Inventario
+                {
+                    Id = row.Field<Guid>("IdInventario"),
+                    IdProductoDetalle = row.Field<Guid>("IdProductoDetalle"),
+                    Proveedor = row.Field<string>("Proveedor"),
+                    Existencia = row.Field<int>("Existencia"),
+                    Lote = row.Field<string>("Lote"),
+                    PrecioVenta = row.Field<decimal>("PrecioVenta"),
+                    PrecioCompra = row.Field<decimal>("PrecioCompra"),
+                    FechaCompra = row.Field<DateTime>("FechaCompra"),
+                    FechaVencimiento = row.Field<DateTime>("FechaVencimiento")
+                };
+                return inventario;
+            }
+            return null;
+        }
+
         public async Task<List<Inventario>> GetInV()
         {
             SqlCommand readCommand = _operationBuilder.Initialize<Inventario>()

@@ -39,6 +39,11 @@ namespace Domain.Endpoint.Services
            _inventarioRepository.DeleteInV(Id);
         }
 
+        public Task<Inventario> GetById(Guid Id)
+        {
+           return _inventarioRepository.GetById(Id);
+        }
+
         public Task<List<Inventario>> GetInV()
         {
           return _inventarioRepository.GetInV();

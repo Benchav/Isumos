@@ -42,6 +42,11 @@ namespace Domain.Endpoint.Services
             return _proveedorRepository.Get();
         }
 
+        public Task<Proveedor> GetById(Guid Id)
+        {
+           return _proveedorRepository.GetById(Id);
+        }
+
         public void UpdateProveedor(Guid Id, Proveedor nuevoRegistros)
         {
             _proveedorRepository.UpdateProveedor(Id, nuevoRegistros);

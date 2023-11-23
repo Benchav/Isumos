@@ -24,12 +24,12 @@ namespace WebApi.Controllers
             return Ok(cliente);
         }
       
-      /*  [HttpGet]
+       [HttpGet]
         public async Task<IHttpActionResult> GetById(Guid Id)
         {
             Cliente Cliente = await _clienteService.GetById(Id);
             return Ok(Cliente);
-        }*/
+        }
      
         [HttpPost]
         public IHttpActionResult PostCliente(Cliente nuevoCliente)
@@ -41,7 +41,7 @@ namespace WebApi.Controllers
 
             Cliente newCliente = _clienteService.CreateCliente(nuevoCliente);
 
-            return Ok(newCliente);
+           return Ok(newCliente);
         }
 
 

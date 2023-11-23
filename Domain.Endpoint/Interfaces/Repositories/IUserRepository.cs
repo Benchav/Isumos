@@ -9,7 +9,7 @@ namespace Domain.Endpoint.Interfaces.Repositories
     {
         Task<List<User>> Get();
 
-
+        Task<User> GetById(Guid Id);
         void CreateUser(User nuevoUser);
 
         void DeleteUser(Guid Id);

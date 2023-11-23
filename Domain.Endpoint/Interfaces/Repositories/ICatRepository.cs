@@ -8,9 +8,10 @@ namespace Domain.Endpoint.Interfaces.Repositories
     public interface ICatRepository
     {
        Task<List<Cat>> Get();
-       void CreateCatProducto(Cat nuevoCatProducto); 
-       void DeleteCatProducto(Guid Id);
-       void UpdateCatProducto(Guid Id, Cat nuevosRegistros);
+       Task<Cat> GetById(Guid Id);
+       void CreateCat(Cat nuevoCatProducto); 
+       void DeleteCat(Guid Id);
+       void UpdateCat(Guid Id, Cat nuevosRegistros);
        
     }
 }

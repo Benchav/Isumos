@@ -67,6 +67,31 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return cat;
         }
 
+        public async Task<Proveedor> GetById(Guid Id)
+        {
+            SqlCommand readCommand = _operationBuilder.Initialize<Proveedor>()
+                .WithOperation(SqlReadOperation.SelectById)
+                .WithId(Id)
+                .BuildReader();
+
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+            if (dt.Rows.Count >0)
+            {
+                DataRow row = dt.Rows[0];
+                Proveedor proveedor = new Proveedor
+                {
+                    Id = row.Field<Guid>("IdProveedor"),
+                    NombreCompañia = row.Field<string>("NombreCompañia"),
+                    Correo = row.Field<string>("Correo"),
+                    Telefono = row.Field<int>("Telefono"),
+                    Estado = row.Field<int>("Estado"),
+                    FechaCreacion = row.Field<DateTime>("FechaCreacion"),
+                };
+                return proveedor;
+            }
+            return null;
+        }
+
         public void UpdateProveedor(Guid Id, Proveedor nuevoProv)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoProv)

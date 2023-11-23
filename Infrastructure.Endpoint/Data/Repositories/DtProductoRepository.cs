@@ -66,6 +66,31 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return cat;
         }
 
+        public async Task<DtProducto> GetById(Guid Id)
+        {
+            SqlCommand readCommand = _operationBuilder.Initialize<DtProducto>()
+             .WithOperation(SqlReadOperation.SelectById)
+             .WithId(Id)
+             .BuildReader();
+
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+            if (dt.Rows.Count >0)
+            {
+                DataRow row = dt.Rows[0];
+                DtProducto dtProducto = new DtProducto
+                {
+                    Id = row.Field<Guid>("IdProductoDetalle"),
+                    IdProducto = row.Field<Guid>("IdProducto"),
+                    Descripcion = row.Field<string>("Descripcion"),
+                    Marca = row.Field<string>("Marca"),
+                    Medida = row.Field<string>("Medida"),
+                    Estado = row.Field<int>("Estado"),
+                };
+                return dtProducto;
+            }
+            return null;
+        }
+
         public void Update(Guid Id, DtProducto nuevosRegistro)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevosRegistro)

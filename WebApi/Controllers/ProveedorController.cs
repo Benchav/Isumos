@@ -24,6 +24,13 @@ namespace WebApi.Controllers
             return Ok(proveedor);
         }
 
+        [HttpGet]
+        public async Task<IHttpActionResult> GetById(Guid Id)
+        {
+            Proveedor Proveedor = await _proveedorService.GetById(Id);
+            return Ok(Proveedor);
+        }
+
         [HttpPost]
         public IHttpActionResult PostProveedor(Proveedor nuevoProveedor)
         {
@@ -34,7 +41,7 @@ namespace WebApi.Controllers
 
             Proveedor newProveedor = _proveedorService.CreateProveedor(nuevoProveedor);
 
-            return Ok(newProveedor);
+            return Created(Request.RequestUri + "/" + newProveedor.Id, newProveedor);
         }
 
         [HttpDelete]

@@ -15,7 +15,7 @@ namespace Domain.Endpoint.Services
         {
             _catproductoRepository = CatProductoRepository;
         }
-        public Cat CreateCatProducto(Cat nuevoCatProducto)
+        public Cat CreateCat(Cat nuevoCatProducto)
         {
             Cat newCatProducto = new Cat()
             {
@@ -26,15 +26,15 @@ namespace Domain.Endpoint.Services
 
             };
 
-            _catproductoRepository.CreateCatProducto(newCatProducto);
+            _catproductoRepository.CreateCat(newCatProducto);
             return newCatProducto;
         }
 
 
 
-        public void DeleteCatProducto(Guid Id)
+        public void DeleteCat(Guid Id)
         {
-            _catproductoRepository.DeleteCatProducto(Id);
+            _catproductoRepository.DeleteCat(Id);
         }
 
 
@@ -44,10 +44,14 @@ namespace Domain.Endpoint.Services
             return _catproductoRepository.Get();
         }
 
-
-        public void UpdateCatProducto(Guid Id, Cat nuevosRegistros)
+        public Task<Cat> GetById(Guid Id)
         {
-            _catproductoRepository.UpdateCatProducto(Id, nuevosRegistros);
+            return _catproductoRepository.GetById(Id);
+        }
+
+        public void UpdateCat(Guid Id, Cat nuevosRegistros)
+        {
+            _catproductoRepository.UpdateCat(Id, nuevosRegistros);
         }
     }
 }

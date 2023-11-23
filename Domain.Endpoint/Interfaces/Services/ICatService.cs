@@ -8,12 +8,12 @@ namespace Domain.Endpoint.Interfaces.Services
     public interface ICatService
     {
         Task<List<Cat>> GetAll();
+        Task<Cat> GetById(Guid Id);
+        Cat CreateCat(Cat nuevoCatProducto);
 
-        Cat CreateCatProducto(Cat nuevoCatProducto);
+        void DeleteCat(Guid Id);
 
-        void DeleteCatProducto(Guid Id);
-
-        void UpdateCatProducto(Guid Id, Cat nuevoRegistros);
+        void UpdateCat(Guid Id, Cat nuevoRegistros);
 
     }
 }

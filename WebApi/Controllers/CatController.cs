@@ -9,58 +9,66 @@ namespace WebApi.Controllers
 {
     public class CatController : ApiController
     {
-        private readonly ICatService _catproductoService;
+        private readonly ICatService _catService;
 
         public CatController(ICatService catproductoService)
         {
-            _catproductoService = catproductoService;
+            _catService = catproductoService;
         }
 
         [HttpGet]
-        public async Task<IHttpActionResult> GetCatProducto()
+        public async Task<IHttpActionResult> GetCat()
         {
          
-                List<Cat> catproducto = await _catproductoService.GetAll();
+                List<Cat> cat = await _catService.GetAll();
 
-                return Ok(catproducto); 
+                return Ok(cat); 
          
         }
 
-        [HttpPost]
-        public IHttpActionResult PostCatProducto(Cat nuevoCatProducto)
+        [HttpGet]
+        public async Task<IHttpActionResult> GetById(Guid Id)
         {
-          // Verifica si el modelo es válido antes de procesar
+            Cat Cat = await _catService.GetById(Id);
+            return Ok(Cat);
+        }
+
+        [HttpPost]
+        public IHttpActionResult PostCat(Cat nuevoCatProducto)
+        {
+         //verifica si el cuerpo de la solicitud es valido
             if (!ModelState.IsValid)
             {
-             // Devuelve un error de solicitud incorrecta con los mensajes de validación
+             //devuelve un codigo 400 "Bad Request" con los errores en el cuerpo que ingresamos
                 return BadRequest(ModelState);
             }
 
-            Cat newCatProducto = _catproductoService.CreateCatProducto(nuevoCatProducto);
+            Cat newCatProducto = _catService.CreateCat(nuevoCatProducto);
 
-                return Ok(newCatProducto);
+            return Created(Request.RequestUri + "/" + newCatProducto.Id, newCatProducto);
+            // Devuelve un código de estado 201 (Created) 
         }
 
 
 
         [HttpDelete]
-        public IHttpActionResult DeleteCatProducto(Guid Id)
+        public IHttpActionResult DeleteCat(Guid Id)
         {
-                _catproductoService.DeleteCatProducto(Id);
+                _catService.DeleteCat(Id);
 
                 return Ok("La categoria de producto seleccionado ha sido eliminado");
         }
 
 
         [HttpPut]
-        public IHttpActionResult UpdateCatProducto(Guid Id, Cat nuevosRegistros)
+        public IHttpActionResult UpdateCat(Guid Id, Cat nuevosRegistros)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            _catproductoService.UpdateCatProducto(Id, nuevosRegistros);
+            _catService.UpdateCat(Id, nuevosRegistros);
 
                 return Ok("La categoria de producto seleccionado ha sido modificado");
            

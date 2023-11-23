@@ -8,7 +8,7 @@ namespace Domain.Endpoint.Interfaces.Repositories
     public interface IInventarioRepository
     {
         Task<List<Inventario>> GetInV();
-
+        Task<Inventario> GetById(Guid Id);
         void CreateInV(Inventario Ninventario);
 
         void DeleteInV(Guid Id);

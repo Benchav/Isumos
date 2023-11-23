@@ -80,18 +80,41 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return cat;
         }
 
-
-       /* public  async Task<Cliente> GetById(Guid Id)
-        {         
+      
+        public async Task<Cliente> GetById(Guid Id)
+        {
             SqlCommand readCommand = _operationBuilder.Initialize<Cliente>()
-                  .WithOperation(SqlReadOperation.SelectById)
-                  .WithId(Id)
-                  .BuildReader();
-           return await  _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+              .WithOperation(SqlReadOperation.SelectById)
+              .WithId(Id)
+              .BuildReader();
 
-            
-        }*/
+          DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
 
+        
+            if (dt.Rows.Count >0)
+            {
+             
+                DataRow row = dt.Rows[0];
+                Cliente cliente = new Cliente
+                {
+                    Id = row.Field<Guid>("IdCliente"),
+                    PrimerNombre = row.Field<string>("PrimerNombre"),
+                    SegundoNombre = row.Field<string>("SegundoNombre"),
+                    PrimerApellido = row.Field<string>("PrimerApellido"),
+                    SegundoApellido = row.Field<string>("SegundoApellido"),
+                    Correo = row.Field<string>("Correo"),
+                    Telefono = row.Field<string>("Telefono"),
+                    Estado = row.Field<int>("Estado"),
+                    FechaCreacion = row.Field<DateTime>("FechaCreacion"),
+                };
+
+                
+                return cliente;
+            }
+            return null; 
+        }
+
+         
         public void UpdateCliente(Guid Id, Cliente nuevoClie)
         {
 

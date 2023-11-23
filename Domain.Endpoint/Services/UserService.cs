@@ -50,6 +50,11 @@ namespace Domain.Endpoint.Services
             return _userRepository.Get();
         }
 
+        public Task<User> GetById(Guid Id)
+        {
+            return _userRepository.GetById(Id);
+        }
+
         public void UpdateUser(Guid Id, User nuevoRegistros)
         {
             _userRepository.UpdateUser(Id, nuevoRegistros);

@@ -2,6 +2,7 @@
 using Domain.Endpoint.Interfaces.Services;
 using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web.Http;
 
@@ -24,6 +25,13 @@ namespace WebApi.Controllers
             return Ok(user);
         }
 
+        [HttpGet]
+        public async Task<IHttpActionResult> GetById(Guid Id)
+        {
+            User User = await _userService.GetById(Id);
+            return Ok(User);
+        }
+
         [HttpPost]
         public IHttpActionResult PostUser(User nuevoUser)
         {
@@ -34,7 +42,7 @@ namespace WebApi.Controllers
 
             User newUser = _userService.CreateUser(nuevoUser);
 
-            return Ok(newUser);
+            return Created(Request.RequestUri + "/" + newUser.Id, newUser);
         }
 
         [HttpDelete]
@@ -52,10 +60,11 @@ namespace WebApi.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+           
             _userService.UpdateUser(Id, nuevosRegistros);
-
             return Ok("El Usuario seleccinado ha sido modificado");
+
+
         }
 
     }

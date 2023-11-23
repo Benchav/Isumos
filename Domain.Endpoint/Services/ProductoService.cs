@@ -46,6 +46,11 @@ namespace Domain.Endpoint.Services
             return _productoRepository.Get();
         }
 
+        public Task<Producto> GetById(Guid Id)
+        {
+           return _productoRepository.GetById(Id);
+        }
+
         public void UpdateProducto(Guid Id, Producto nuevoRegistros)
         {
            _productoRepository.UpdateProducto(Id, nuevoRegistros);

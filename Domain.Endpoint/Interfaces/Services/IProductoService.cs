@@ -8,7 +8,7 @@ namespace Domain.Endpoint.Interfaces.Services
     public interface IProductoService
     {
         Task<List<Producto>> GetAll();
-
+        Task<Producto> GetById(Guid Id);
         Producto CreateProducto(Producto nuevoProducto);
 
         void DeleteProducto(Guid Id);

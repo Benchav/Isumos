@@ -52,8 +52,10 @@ namespace Domain.Endpoint.Services
             return await _clienteRepository.Get();
         }
 
-  
-
+        public async Task<Cliente> GetById(Guid Id)
+        {
+            return await _clienteRepository.GetById(Id);
+        }
 
         public void UpdateCliente(Guid Id, Cliente nuevosRegistros)
         {

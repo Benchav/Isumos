@@ -10,7 +10,7 @@ namespace Domain.Endpoint.Interfaces.Services
 
 
         Task<List<Proveedor>> GetAll();
-
+        Task<Proveedor> GetById(Guid Id);
         Proveedor CreateProveedor(Proveedor nuevoProveedor);
 
         void DeleteProveedor(Guid Id);

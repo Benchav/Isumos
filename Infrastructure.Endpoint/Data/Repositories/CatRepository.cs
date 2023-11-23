@@ -23,7 +23,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         }
 
-        public void CreateCatProducto(Cat nuevoCatProducto)
+        public void CreateCat(Cat nuevoCatProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCatProducto)
                .WithOperation(SqlWriteOperation.Create)
@@ -31,7 +31,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
             _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
 
-        public void DeleteCatProducto(Guid Id)
+        public void DeleteCat(Guid Id)
         {
             string delec = "DELETE FROM TblCategoria WHERE IdCategoria = @IdCategoria";
             SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
@@ -67,7 +67,33 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         }
 
-        public void UpdateCatProducto(Guid Id, Cat nuevoCatProducto)
+        public async Task<Cat> GetById(Guid Id)
+        {
+            SqlCommand readCommand = _operationBuilder.Initialize<Cat>()
+               .WithOperation(SqlReadOperation.SelectById)
+               .WithId(Id)
+               .BuildReader();
+
+            DataTable dt = await _sqlDbConnection.ExecuteQueryCommandAsync(readCommand);
+
+            // Se verifica si hay al menos una fila en el DataTable, es decir, si se encontró algún cliente
+            if (dt.Rows.Count > 0)
+            {
+                DataRow row = dt.Rows[0];
+                Cat cat = new Cat
+                {
+                    Id = row.Field<Guid>("IdCategoria"),
+                    Descripcion = row.Field<string>("Descripcion"),
+                    Estado = row.Field<int>("Estado"),
+                    FechaCreacion = row.Field<DateTime>("FechaCreacion"),
+                };
+                return cat;
+            }
+            // Si no se encuentra ningún cliente con el Id proporcionado, se devuelve null
+            return null;
+        }
+
+        public void UpdateCat(Guid Id, Cat nuevoCatProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCatProducto)
             .WithOperation(SqlWriteOperation.Update)

@@ -24,6 +24,12 @@ namespace WebApi.Controllers
             return Ok(producto);
         }
 
+        [HttpGet]
+        public async Task<IHttpActionResult> GetById(Guid Id)
+        {
+            Producto producto = await _productoService.GetById(Id);
+            return Ok(producto);
+        }
 
         [HttpPost]
         public IHttpActionResult PostProducto(Producto nuevoProducto)
@@ -35,7 +41,7 @@ namespace WebApi.Controllers
 
             Producto newProducto = _productoService.CreateProducto(nuevoProducto);
 
-            return Ok(newProducto);
+            return Created(Request.RequestUri + "/" + newProducto.Id, newProducto);
         }
 
 

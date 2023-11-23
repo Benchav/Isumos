@@ -47,9 +47,6 @@ namespace Infrastructure.Endpoint.Services
 
         }
 
-
-
-        //ENTIDAD INVENTARIO
         private SqlEntitySettings GetInventario()
         {
             var columns = new List<SqlColumnSettings>()
@@ -72,8 +69,6 @@ namespace Infrastructure.Endpoint.Services
             };
         }
 
-
-        //ENTIDAD DETALLEPRODUCTO
         private SqlEntitySettings GetDtProductoSettings()
         {
             var columns = new List<SqlColumnSettings>()
@@ -93,8 +88,6 @@ namespace Infrastructure.Endpoint.Services
             };
         }
 
-
-        //ENTIDAD CATPRODUCTO
         private SqlEntitySettings GetCatProductoSettings()
         {
             var columns = new List<SqlColumnSettings>()
@@ -112,7 +105,6 @@ namespace Infrastructure.Endpoint.Services
             };
         }
 
-        // ENTIDAD PROVEEDOR
         private SqlEntitySettings GetProveedorSettings()
         {
             var columns = new List<SqlColumnSettings>()
@@ -132,7 +124,6 @@ namespace Infrastructure.Endpoint.Services
             };
         }
 
-        // ENTIDAD CLIENTE
         private SqlEntitySettings GetClienteSettings()
         {
             var columns = new List<SqlColumnSettings>()
@@ -156,7 +147,6 @@ namespace Infrastructure.Endpoint.Services
         }
 
 
-        // ENTIDAD PRODUCTO
         private SqlEntitySettings GetProductoSettings()
         {
             var columns = new List<SqlColumnSettings>()
@@ -180,7 +170,6 @@ namespace Infrastructure.Endpoint.Services
         }
 
 
-        // ENTIDAD USER
         private SqlEntitySettings GetUserSettings()
         {
             var columns = new List<SqlColumnSettings>()
