@@ -1,0 +1,36 @@
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Domain.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Domain.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Domain.Endpoint\obj\Debug\Domain.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Domain.Endpoint\obj\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Domain.Endpoint\obj\Debug\Domain.Endpoint.pdb

@@ -1,0 +1,162 @@
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.pdb
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.pdb
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CopyComplete
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.dll
+C:\Users\user\Desktop\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CopyComplete
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\Programa API\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CopyComplete
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll.config
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramacionWeb\ProgramaAPI_Memoria\NetFrameworkApi-master\NetFrameworkApi-master\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll.config
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CopyComplete
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\NetFrameworkApi-master2\NetFrameworkApi-master2\NetFrameworkApi-master2\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll.config
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\BinbinComponentModelDataAnnotations.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\CustomValidation.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CopyComplete
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll.config
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Infrastructure.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\BinbinComponentModelDataAnnotations.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\CustomValidation.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Application.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Domain.Endpoint.pdb
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Data.SqlClient.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Security.AccessControl.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Security.Permissions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.AssemblyReference.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CoreCompileInputs.cache
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.csproj.CopyComplete
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.dll
+C:\Users\123\OneDrive\Escritorio\ProgramWeb\InsumosApi1\Infrastructure.Endpoint\obj\Debug\Infrastructure.Endpoint.pdb

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Infrastructure.Endpoint",
+    "\\Infrastructure.Endpoint\\Data",
+    "\\Infrastructure.Endpoint\\Data\\Repositories",
+    "\\Infrastructure.Endpoint\\Extensions"
+  ],
+  "SelectedNode": "\\APIInsumos.sln",
+  "PreviewInSolutionExplorer": false
+}
