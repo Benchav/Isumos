@@ -9,9 +9,9 @@ namespace Domain.Endpoint.Interfaces.Repositories
     {
         Task<List<Cliente>> Get();
         Task<Cliente> GetById(Guid Id);
-        void CreateCliente(Cliente nuevoCliente);
-        void DeleteCliente(Guid Id);
-        void UpdateCliente(Guid Id, Cliente nuevoClie);
+        Task CreateCliente(Cliente nuevoCliente);
+        Task DeleteCliente(Guid Id);
+        Task UpdateCliente(Guid Id, Cliente nuevoClie);
     }
        
 }

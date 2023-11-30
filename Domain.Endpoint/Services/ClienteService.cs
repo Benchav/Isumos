@@ -41,9 +41,9 @@ namespace Domain.Endpoint.Services
 
 
 
-         public void DeleteCliente(Guid Id)
+         public async Task DeleteCliente(Guid Id)
          {
-             _clienteRepository.DeleteCliente(Id);
+            await _clienteRepository.DeleteCliente(Id);
          }
 
 
@@ -57,9 +57,9 @@ namespace Domain.Endpoint.Services
             return await _clienteRepository.GetById(Id);
         }
 
-        public void UpdateCliente(Guid Id, Cliente nuevosRegistros)
+        public async Task UpdateCliente(Guid Id, Cliente nuevosRegistros)
         {
-            _clienteRepository.UpdateCliente(Id, nuevosRegistros);
+           await  _clienteRepository.UpdateCliente(Id, nuevosRegistros);
         }
     }
 }

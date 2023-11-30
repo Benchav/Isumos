@@ -11,8 +11,8 @@ namespace Domain.Endpoint.Interfaces.Services
         Task<Inventario> GetById(Guid Id);
         Inventario CreateInV(Inventario Ninventario);
 
-        void DeleteInV(Guid Id);
+        Task DeleteInV(Guid Id);
 
-        void UpdateInV(Guid Id, Inventario nuevosRegistros);
+        Task UpdateInV(Guid Id, Inventario nuevosRegistros);
     }
 }

@@ -11,7 +11,7 @@ namespace Domain.Endpoint.Interfaces.Services
 
         Task<Cliente> GetById(Guid Id);
         Cliente CreateCliente(Cliente nuevoCliente);
-        void DeleteCliente(Guid Id);
-        void UpdateCliente(Guid Id, Cliente nuevoRegistros);
+        Task DeleteCliente(Guid Id);
+        Task UpdateCliente(Guid Id, Cliente nuevoRegistros);
     }
 }

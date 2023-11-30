@@ -10,11 +10,11 @@ namespace Domain.Endpoint.Interfaces.Repositories
         Task<List<User>> Get();
 
         Task<User> GetById(Guid Id);
-        void CreateUser(User nuevoUser);
+        Task CreateUser(User nuevoUser);
 
-        void DeleteUser(Guid Id);
+        Task DeleteUser(Guid Id);
 
-        void UpdateUser(Guid Id, User nuevoUs);
+        Task UpdateUser(Guid Id, User nuevoUs);
 
     }
 

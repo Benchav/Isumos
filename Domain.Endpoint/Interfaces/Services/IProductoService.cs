@@ -11,9 +11,9 @@ namespace Domain.Endpoint.Interfaces.Services
         Task<Producto> GetById(Guid Id);
         Producto CreateProducto(Producto nuevoProducto);
 
-        void DeleteProducto(Guid Id);
+        Task DeleteProducto(Guid Id);
 
-        void UpdateProducto(Guid Id, Producto nuevoRegistros);
+        Task UpdateProducto(Guid Id, Producto nuevoRegistros);
 
     }
 }

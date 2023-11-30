@@ -23,16 +23,26 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         }
 
-        public void CreateCat(Cat nuevoCatProducto)
+        public async Task CreateCat(Cat nuevoCatProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCatProducto)
                .WithOperation(SqlWriteOperation.Create)
                .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+         await _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
 
-        public void DeleteCat(Guid Id)
+        public async Task DeleteCat(Guid Id)
         {
+            //hay que ver como es que se implementa con forme al 
+            //Builder para que este todo mapeadode esa manera
+            //despues ver si ponemos todos como asincronico 
+            //para que se mire mas redi la implementacion 
+
+        /* SqlCommand writeCommand = _operationBuilder.From(Id)
+               .WithOperation(SqlWriteOperation.Delete)
+               .BuildWritter();
+        await    _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);      */
+
             string delec = "DELETE FROM TblCategoria WHERE IdCategoria = @IdCategoria";
             SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
             SqlParameter parameter = new SqlParameter()
@@ -43,7 +53,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
                 Value = Id
             };
             sqlCommand.Parameters.Add(parameter);
-            sqlCommand.ExecuteNonQuery();
+           await sqlCommand.ExecuteNonQueryAsync();
         }
 
 
@@ -93,12 +103,12 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return null;
         }
 
-        public void UpdateCat(Guid Id, Cat nuevoCatProducto)
+        public async Task UpdateCat(Guid Id, Cat nuevoCatProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCatProducto)
             .WithOperation(SqlWriteOperation.Update)
             .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+         await  _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }

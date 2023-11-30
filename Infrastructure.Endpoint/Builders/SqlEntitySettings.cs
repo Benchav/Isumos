@@ -6,7 +6,7 @@ namespace Infrastructure.Endpoint.Builders
 {
     public class SqlEntitySettings
     {
-        public string TableName { get; set; } 
+        public string TableName { get; set; }   
         public string Schema { get; set; }    
         public bool HasSchema { get => !string.IsNullOrEmpty(Schema); }
         public string NormalizedTableName { get => HasSchema ? $"[{Schema}].[{TableName}]" : TableName; }

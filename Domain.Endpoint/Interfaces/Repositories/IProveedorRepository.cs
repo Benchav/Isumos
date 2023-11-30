@@ -9,10 +9,10 @@ namespace Domain.Endpoint.Interfaces.Repositories
     {
         Task<List<Proveedor>> Get();
         Task<Proveedor> GetById(Guid Id);
-        void CreateProveedor(Proveedor nuevoProveedor);
+        Task CreateProveedor(Proveedor nuevoProveedor);
 
-        void DeleteProveedor(Guid Id);
+        Task DeleteProveedor(Guid Id);
 
-        void UpdateProveedor(Guid Id, Proveedor nuevoProv);
+        Task UpdateProveedor(Guid Id, Proveedor nuevoProv);
     }
 }

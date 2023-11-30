@@ -32,9 +32,9 @@ namespace Domain.Endpoint.Services
 
 
 
-        public void DeleteCat(Guid Id)
+       public async Task DeleteCat(Guid Id)
         {
-            _catproductoRepository.DeleteCat(Id);
+         await  _catproductoRepository.DeleteCat(Id);
         }
 
 
@@ -49,9 +49,9 @@ namespace Domain.Endpoint.Services
             return _catproductoRepository.GetById(Id);
         }
 
-        public void UpdateCat(Guid Id, Cat nuevosRegistros)
+        public async Task UpdateCat(Guid Id, Cat nuevosRegistros)
         {
-            _catproductoRepository.UpdateCat(Id, nuevosRegistros);
+          await   _catproductoRepository.UpdateCat(Id, nuevosRegistros);
         }
     }
 }

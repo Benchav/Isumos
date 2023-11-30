@@ -36,9 +36,9 @@ namespace Domain.Endpoint.Services
         }
             
 
-        public void DeleteProducto(Guid Id)
+        public async Task DeleteProducto(Guid Id)
         {
-           _productoRepository.DeleteProducto(Id);
+         await  _productoRepository.DeleteProducto(Id);
         }
 
         public Task<List<Producto>> GetAll()
@@ -51,9 +51,9 @@ namespace Domain.Endpoint.Services
            return _productoRepository.GetById(Id);
         }
 
-        public void UpdateProducto(Guid Id, Producto nuevoRegistros)
+        public async Task  UpdateProducto(Guid Id, Producto nuevoRegistros)
         {
-           _productoRepository.UpdateProducto(Id, nuevoRegistros);
+         await  _productoRepository.UpdateProducto(Id, nuevoRegistros);
         }
     }
 }

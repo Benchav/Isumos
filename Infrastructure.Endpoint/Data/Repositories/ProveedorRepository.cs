@@ -22,15 +22,15 @@ namespace Infrastructure.Endpoint.Data.Repositories
             _operationBuilder = operationBuilder;
         }
 
-        public void CreateProveedor(Proveedor nuevoProveedor)
+        public async Task CreateProveedor(Proveedor nuevoProveedor)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoProveedor)
                .WithOperation(SqlWriteOperation.Create)
                .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+           await _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
 
-        public void DeleteProveedor(Guid Id)
+        public async Task DeleteProveedor(Guid Id)
         {
      
             string delec = "DELETE FROM TblProveedor WHERE IdProveedor = @IdProveedor";
@@ -43,7 +43,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
                 Value = Id
             };
             sqlCommand.Parameters.Add(parameter);
-            sqlCommand.ExecuteNonQuery();
+          await  sqlCommand.ExecuteNonQueryAsync();
         }
 
         public async Task<List<Proveedor>> Get()
@@ -92,12 +92,12 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return null;
         }
 
-        public void UpdateProveedor(Guid Id, Proveedor nuevoProv)
+        public async Task UpdateProveedor(Guid Id, Proveedor nuevoProv)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoProv)
                         .WithOperation(SqlWriteOperation.Update)
                         .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+         await   _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }

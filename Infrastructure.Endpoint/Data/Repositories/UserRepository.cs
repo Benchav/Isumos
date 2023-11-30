@@ -21,15 +21,15 @@ namespace Infrastructure.Endpoint.Data.Repositories
             _operationBuilder = operationBuilder;
         }
 
-        public void CreateUser(User nuevoUser)
+        public async Task CreateUser(User nuevoUser)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoUser)
                .WithOperation(SqlWriteOperation.Create)
                .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+         await   _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
 
-        public void DeleteUser(Guid Id)
+        public async Task DeleteUser(Guid Id)
         {
             string delec = "DELETE FROM TblUsuario WHERE IdUsuario = @IdUsuario";
             SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
@@ -41,7 +41,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
                 Value = Id
             };
             sqlCommand.Parameters.Add(parameter);
-            sqlCommand.ExecuteNonQuery();
+       await sqlCommand.ExecuteNonQueryAsync();
         }
 
         public async Task<List<User>> Get()
@@ -102,12 +102,12 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return null;
         }
 
-        public void UpdateUser(Guid Id, User nuevoUs)
+        public async Task UpdateUser(Guid Id, User nuevoUs)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoUs)
                         .WithOperation(SqlWriteOperation.Update)
                         .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+           await _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }

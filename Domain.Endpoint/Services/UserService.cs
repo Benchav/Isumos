@@ -40,9 +40,9 @@ namespace Domain.Endpoint.Services
             return newUser;
         }
 
-        public void DeleteUser(Guid Id)
+        public async Task DeleteUser(Guid Id)
         {
-            _userRepository.DeleteUser(Id);
+          await  _userRepository.DeleteUser(Id);
         }
 
         public Task<List<User>> GetAll()
@@ -55,9 +55,9 @@ namespace Domain.Endpoint.Services
             return _userRepository.GetById(Id);
         }
 
-        public void UpdateUser(Guid Id, User nuevoRegistros)
+        public async Task UpdateUser(Guid Id, User nuevoRegistros)
         {
-            _userRepository.UpdateUser(Id, nuevoRegistros);
+          await  _userRepository.UpdateUser(Id, nuevoRegistros);
         }
     }
 }

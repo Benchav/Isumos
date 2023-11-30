@@ -10,10 +10,10 @@ namespace Domain.Endpoint.Interfaces.Repositories
         Task<List<DtProducto>> Get();
 
         Task<DtProducto> GetById(Guid Id);
-        void Create(DtProducto Nproduc);
+        Task Create(DtProducto Nproduc);
 
-        void Update(Guid Id, DtProducto nuevosRegistro);
+        Task Update(Guid Id, DtProducto nuevosRegistro);
 
-        void Delete(Guid Id);
+        Task Delete(Guid Id);
     }
 }

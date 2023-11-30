@@ -34,9 +34,9 @@ namespace Domain.Endpoint.Services
             return newInventario;
         }
 
-        public void DeleteInV(Guid Id)
+        public async Task DeleteInV(Guid Id)
         {
-           _inventarioRepository.DeleteInV(Id);
+          await _inventarioRepository.DeleteInV(Id);
         }
 
         public Task<Inventario> GetById(Guid Id)
@@ -49,9 +49,9 @@ namespace Domain.Endpoint.Services
           return _inventarioRepository.GetInV();
         }
 
-        public void UpdateInV(Guid Id, Inventario nuevosRegistros)
+        public async Task UpdateInV(Guid Id, Inventario nuevosRegistros)
         {
-           _inventarioRepository.UpdateInV(Id, nuevosRegistros);
+         await   _inventarioRepository.UpdateInV(Id, nuevosRegistros);
         }
     }
 }

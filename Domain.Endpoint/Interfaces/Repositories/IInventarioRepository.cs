@@ -9,10 +9,10 @@ namespace Domain.Endpoint.Interfaces.Repositories
     {
         Task<List<Inventario>> GetInV();
         Task<Inventario> GetById(Guid Id);
-        void CreateInV(Inventario Ninventario);
+        Task CreateInV(Inventario Ninventario);
 
-        void DeleteInV(Guid Id);
+        Task DeleteInV(Guid Id);
 
-        void UpdateInV(Guid Id,  Inventario nuevosInv);
+        Task UpdateInV(Guid Id,  Inventario nuevosInv);
     }
 }

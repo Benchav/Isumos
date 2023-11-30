@@ -9,9 +9,10 @@ namespace Domain.Endpoint.Interfaces.Repositories
     {
        Task<List<Cat>> Get();
        Task<Cat> GetById(Guid Id);
-       void CreateCat(Cat nuevoCatProducto); 
-       void DeleteCat(Guid Id);
-       void UpdateCat(Guid Id, Cat nuevosRegistros);
+       Task CreateCat(Cat nuevoCatProducto);
+        // void DeleteCat(Guid Id);
+        Task DeleteCat(Guid Id);
+        Task UpdateCat(Guid Id, Cat nuevosRegistros);
        
     }
 }

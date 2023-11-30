@@ -13,9 +13,9 @@ namespace Domain.Endpoint.Interfaces.Services
         Task<Proveedor> GetById(Guid Id);
         Proveedor CreateProveedor(Proveedor nuevoProveedor);
 
-        void DeleteProveedor(Guid Id);
+        Task DeleteProveedor(Guid Id);
 
-        void UpdateProveedor(Guid Id, Proveedor nuevoRegistros);
+       Task UpdateProveedor(Guid Id, Proveedor nuevoRegistros);
 
 
 

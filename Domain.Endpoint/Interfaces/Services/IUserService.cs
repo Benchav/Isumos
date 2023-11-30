@@ -11,8 +11,8 @@ namespace Domain.Endpoint.Interfaces.Services
         Task<User> GetById(Guid Id);
         User CreateUser(User nuevoCatUser);
 
-        void DeleteUser(Guid Id);
+        Task  DeleteUser(Guid Id);
 
-        void UpdateUser(Guid Id, User nuevoRegistros);
+       Task UpdateUser(Guid Id, User nuevoRegistros);
     }
 }

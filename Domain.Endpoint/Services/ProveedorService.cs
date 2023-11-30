@@ -32,9 +32,9 @@ namespace Domain.Endpoint.Services
             return newProveedor;
         }
 
-        public void DeleteProveedor(Guid Id)
+        public async Task DeleteProveedor(Guid Id)
         {
-            _proveedorRepository.DeleteProveedor(Id);
+          await  _proveedorRepository.DeleteProveedor(Id);
         }
 
         public Task<List<Proveedor>> GetAll()
@@ -47,9 +47,9 @@ namespace Domain.Endpoint.Services
            return _proveedorRepository.GetById(Id);
         }
 
-        public void UpdateProveedor(Guid Id, Proveedor nuevoRegistros)
+        public async Task UpdateProveedor(Guid Id, Proveedor nuevoRegistros)
         {
-            _proveedorRepository.UpdateProveedor(Id, nuevoRegistros);
+           await _proveedorRepository.UpdateProveedor(Id, nuevoRegistros);
         }
     }
 }

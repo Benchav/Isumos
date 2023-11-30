@@ -23,15 +23,15 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         }
 
-        public void CreateProducto(Producto nuevoProducto)
+        public async Task CreateProducto(Producto nuevoProducto)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoProducto)
                 .WithOperation(SqlWriteOperation.Create)
                 .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommand(writeCommand);
+         await   _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
 
-        public void DeleteProducto(Guid Id)
+        public async Task DeleteProducto(Guid Id)
         {
            
             string delec = "DELETE FROM TblProducto WHERE IdProducto = @IdProducto";
@@ -44,7 +44,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
                 Value = Id
             };
             sqlCommand.Parameters.Add(parameter);
-            sqlCommand.ExecuteNonQuery();
+           await sqlCommand.ExecuteNonQueryAsync();
         }
 
         public async Task<List<Producto>> Get()
@@ -101,12 +101,12 @@ namespace Infrastructure.Endpoint.Data.Repositories
             return null;
         }
 
-        public void UpdateProducto(Guid Id, Producto nuevosRegistros)
+        public async Task UpdateProducto(Guid Id, Producto nuevosRegistros)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevosRegistros)
              .WithOperation(SqlWriteOperation.Update)
              .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+           await _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }     

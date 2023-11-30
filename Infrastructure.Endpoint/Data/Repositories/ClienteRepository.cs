@@ -27,18 +27,18 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
      
 
-        public void CreateCliente(Cliente nuevoCliente)
+        public async Task CreateCliente(Cliente nuevoCliente)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevoCliente)
                 .WithOperation(SqlWriteOperation.Create)
                 .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+         await   _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
 
 
         }
 
 
-        public void DeleteCliente(Guid Id)
+        public async Task DeleteCliente(Guid Id)
         {
 
             string delete = "DELETE FROM TblCliente WHERE IdCliente = @IdCliente";
@@ -51,7 +51,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
                 Value = Id
             };
             sqlCommand.Parameters.Add(parameter);
-            sqlCommand.ExecuteNonQuery();
+          await  sqlCommand.ExecuteNonQueryAsync();
         }
    
      
@@ -115,13 +115,13 @@ namespace Infrastructure.Endpoint.Data.Repositories
         }
 
          
-        public void UpdateCliente(Guid Id, Cliente nuevoClie)
+        public async Task UpdateCliente(Guid Id, Cliente nuevoClie)
         {
 
             SqlCommand writeCommand = _operationBuilder.From(nuevoClie)
                .WithOperation(SqlWriteOperation.Update)
                .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+          await  _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }

@@ -22,15 +22,15 @@ namespace Infrastructure.Endpoint.Data.Repositories
             _operationBuilder = operationBuilder;
         }
 
-        public void CreateInV(Inventario Ninventario)
+        public async Task CreateInV(Inventario Ninventario)
         {
            SqlCommand WriteCommand = _operationBuilder.From(Ninventario)
                 .WithOperation(Builders.SqlWriteOperation.Create)
                 .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommand(WriteCommand);
+          await _sqlDbConnection.ExecuteNonQueryCommandAsync(WriteCommand);
         }
 
-        public void DeleteInV(Guid Id)
+        public async Task DeleteInV(Guid Id)
         {
             string delec ="DELETE FROM TblInventario WHERE IdInventario= @IdInventario";
             SqlCommand sqlCommand = _sqlDbConnection.TraerConsulta(delec);
@@ -42,7 +42,7 @@ namespace Infrastructure.Endpoint.Data.Repositories
                 Value = Id
             };
             sqlCommand.Parameters.Add(parameter);
-            sqlCommand.ExecuteNonQuery();
+          await  sqlCommand.ExecuteNonQueryAsync();
         }
 
         public async Task<Inventario> GetById(Guid Id)
@@ -98,12 +98,12 @@ namespace Infrastructure.Endpoint.Data.Repositories
 
         }
 
-        public void UpdateInV(Guid Id, Inventario nuevosInv)
+        public async Task UpdateInV(Guid Id, Inventario nuevosInv)
         {
             SqlCommand writeCommand = _operationBuilder.From(nuevosInv)
               .WithOperation(SqlWriteOperation.Update)
               .BuildWritter();
-            _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
+          await  _sqlDbConnection.ExecuteNonQueryCommandAsync(writeCommand);
         }
     }
 }

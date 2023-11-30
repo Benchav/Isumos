@@ -11,9 +11,9 @@ namespace Domain.Endpoint.Interfaces.Services
         Task<Cat> GetById(Guid Id);
         Cat CreateCat(Cat nuevoCatProducto);
 
-        void DeleteCat(Guid Id);
+        Task DeleteCat(Guid Id);
 
-        void UpdateCat(Guid Id, Cat nuevoRegistros);
+       Task UpdateCat(Guid Id, Cat nuevoRegistros);
 
     }
 }
